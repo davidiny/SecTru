@@ -308,8 +308,9 @@ https://www.tooplate.com/view/2120-ben-resume
     border-radius: var(--border-radius-medium);
     color: var(--white-color);
     display: inline-block;
-    margin: 0.5rem 0;
-    padding: 0.5rem 2rem 1.5rem 2rem;
+    margin-left:auto;
+    margin-right: auto;
+    /* padding: 0.5rem 2rem 1.5rem 2rem; */
 	font-size: 2.2em;
   }
 
