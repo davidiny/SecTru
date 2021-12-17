@@ -3,9 +3,9 @@
     'use strict'
 
     // MENU
-    $('.navbar .nav-link').on('click',function(){
-        $(".navbar-collapse").collapse('hide');
-    });
+    // $('.navbar .nav-link').on('click',function(){
+    //     $(".navbar-collapse").collapse('hide');
+    // });
 
     $(window).on('scroll', function() {     
                                 
@@ -15,7 +15,7 @@
         
         var b = $(window).scrollTop();
         
-        if( b > 72 ){       
+        if( b >= 0 ){       
             $(".navbar").addClass("scroll");
         } else {
             $(".navbar").removeClass("scroll");

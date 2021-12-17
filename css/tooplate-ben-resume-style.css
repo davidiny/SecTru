@@ -173,7 +173,7 @@ https://www.tooplate.com/view/2120-ben-resume
   -----------------------------------------*/
 
   .navbar {
-    background: transparent;
+    background: var(--menu-bg-color);
     padding: 0.3rem 1rem;
     transition: all 300ms ease-in-out;
     position: absolute;
@@ -181,7 +181,7 @@ https://www.tooplate.com/view/2120-ben-resume
     top: 0;
     right: 0;
     left: 0;
-    opacity: 0;
+    opacity: 1;
   }
 
   .navbar.scroll {
